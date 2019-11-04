@@ -1,0 +1,1382 @@
+/*maincontent*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:600');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:500i');
+/*Land page read me*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+} 
+
+.wrapper{
+	margin: 0 auto;
+	max-width: 960px;
+
+}
+#mylogo{
+	position: relative;
+	margin-left: 70px;
+	top:5px;
+	left: 140px;
+
+}
+#fixnav{
+	
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: white;
+	margin-left: 4%;
+	padding-bottom: 20px;
+	z-index: 1;
+	padding-bottom: 10px;
+	max-width: 960px;
+	margin:auto 0;
+	padding-left: 71px;
+}
+
+#topline{
+	width: 960px;
+	border: 0.4px solid #D6D4D6;
+	z-index: 1
+
+
+}
+#resumemain{
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+
+}
+#retitle{
+	position: relative;
+	bottom: 10px;
+	font-weight: 600;
+	font-size: 60px;
+}
+#education{
+	margin-top: 30px;
+}
+.subti{
+	font-size: 30px;
+}
+#skill{
+	margin-top: 60px;
+
+}
+
+.rescontent{
+	border: 0.2px solid black;
+	width: 40%;
+	padding: 30px;
+	margin: 0 auto;
+}
+.rescontent p{
+	margin-top: 10px;
+}
+#topnav{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	max-width: 960px;
+	margin:0 auto;
+	justify-content: space-around;
+	    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+     font-size: 14px;
+     letter-spacing: 2px;
+     background-color: rgba(247,247,247,1);
+     padding-top: 25px;
+     padding-bottom: 25px;
+}
+#topnav li{
+		color: rgba(0,0,0,0.5);
+	font-weight: 500;
+}
+#topnav a{
+	text-decoration: none;
+	color: black;
+	color: rgba(0,0,0,0.5);
+}
+#contact{
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: rgba(0,0,0,0.5);
+	font-weight: 500;
+	left: 340px;
+	top: 20px;
+	letter-spacing: 2px;
+}
+#contact a{
+	text-decoration: none;
+	color: black;
+	color: rgba(0,0,0,0.5);
+
+}
+#secondwrapper{
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	z-index: 1;
+}
+#resumebutton a{
+	color: black;
+}
+
+#secondline{
+	position: relative;
+	top: 185px;
+	border: 1.2px solid black;
+}
+
+
+#upperface{
+	margin: 0;
+	padding: 0;
+	border:0;
+	float: right;
+	z-index: -1;
+	margin-top: -10%;
+	margin-right: 6%;
+}
+#hello{
+	position: relative;
+	font-size: 50px;
+	width: 40%;
+	top: 150px;
+	font-size: 70px;
+	left: 31px;
+	font-family: 'Cormorant Garamond', serif;}
+#seconlpine{
+	position: relative;
+	top: 185px;
+	border: 1.2px solid black;
+}
+#lowerface{
+	margin-top: 15px;
+	margin-left: 10%;
+}
+#graybox{
+	width: 460px;
+	height: 600px;
+	background-color: rgba(233,233,233,0.7);
+	z-index: -1;
+	margin-top: -20%;
+	margin-left: 40%;
+}
+.click{
+	color: rgba(255,255,255,0.9);
+	background-color: black;
+	border: 2px solid black;
+    padding: 5px;
+	text-decoration: none;
+	transition: all 250ms cubic-bezier(.17,.67,0,0);
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.17, 0.67, 0, 0);
+    transition-delay: initial;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+#click1{
+	position: relative;
+		margin-left: 25%;
+	bottom: 30px;
+		    top:250px;
+    right: 47px;
+    word-spacing: 6px;
+    padding: 9px;
+    padding-left: 19px;
+    padding-right:19px;
+    letter-spacing: 2px;
+
+}
+#smallscreen{
+	display: none;
+}
+#click2{
+	position: relative;
+	top: 23px;
+	z-index: 1;
+	padding: 9px;
+	    padding-left: 19px;
+    padding-right:19px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+
+}
+#click3{
+	padding: 11px;
+	position: relative;
+	top: 70px;
+	left: 32px;
+	padding-left:25px; 
+	padding-right:25px;
+	margin: 0 auto;
+	word-spacing: 5px;
+	letter-spacing: 5px;
+}
+
+
+.click:hover{
+	color:white;
+	background-color: rgba(141,141,141,0.8);
+	transition: ease;
+	border: 2px solid rgba(139,139,139,0.1);
+
+
+}
+
+#secondbox{
+	display: flex;
+	flex-direction: row;
+	width: 960px;
+	height: 473.459px;
+	background-color: rgba(233,233,233,0.7);
+	margin-top: 90px;
+}
+#building{
+	margin-left: 80px;
+	margin-top: 90px;
+}
+#farm{
+	position: relative;
+	margin-left: 50px;
+	top: 90px;
+}
+#endface{
+	margin-top: 385px;
+}
+#bottomline{
+	margin-top: 80px;
+	width: 800px;
+	margin-left: 8.2%;
+	border: 0.1px solid rgba(233,233,233,0.1);
+}
+#bottomaboutme{
+	position: relative;
+	text-align: center;
+	top: -41px;
+	font-family: 'Cormorant Garamond', serif;
+		color:rgba(141,141,141,1);
+	margin-bottom: -40px;
+	margin-left: 40px;
+
+}
+#sociallogo{
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 29px;
+	z-index: 1;
+}
+#sociallogo a{
+	text-decoration: none;
+}
+#facebook{
+	margin-right: 7px;
+}
+#ins{
+	margin-left: 7px;
+}
+#endlist li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+	color:rgba(141,141,141,0.6);
+}
+#endlist{
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 60px;
+}
+#maincontent{
+	position: relative;
+	top: 107px;
+	overflow-x: hidden;
+}
+#intro{
+	width: 37.18%;
+margin: 0 auto;
+font-family: 'Cormorant Garamond', serif;
+color:rgba(120,120,120,1);
+padding-bottom: 90px;
+
+}
+#biotitle{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 38px;
+	font-weight: 700;
+}
+#bottomlinebio{
+	margin-top: 232px;
+	width: 800px;
+	margin-left: 8.2%;
+	border: 0.1px solid rgba(233,233,233,0.1);
+
+}
+#bikecontent{
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+}
+#cycling{
+	display: flex;
+	flex-direction: row;
+	margin-top: 10%;
+	font-family: 'Cormorant Garamond', serif;
+color:rgba(120,120,120,1);
+margin-left: 50px;
+/*flex-wrap: wrap;*/
+}
+.biosubtitle{
+	font-size: 30px;
+	margin-bottom: 35px;
+	margin-top: 23px;
+}
+.discription{
+	width: 70%;
+	font-size: 22px;
+}
+.bioline{
+	width: 85px;
+}
+#bike{
+	
+	max-width: 100%;
+	height: auto;
+}
+
+
+#power{
+	display: flex;
+	flex-direction: row;
+		margin-top: 6.7%;
+	font-family: 'Cormorant Garamond', serif;
+color:rgba(120,120,120,1);
+margin-left: 21px;
+
+
+
+}
+#powercontent{
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+	margin-top: 220px;
+}
+#powerme{
+	margin-left: -5px;
+}
+#catcontent{
+	display: flex;
+	flex-direction: column;
+		font-family: 'Cormorant Garamond', serif;
+color:rgba(120,120,120,1);
+margin-left: 50px;
+margin-top: 100px;
+}
+#cat{
+	display: flex;
+	flex-direction: row;
+	margin-top: 12%;
+}
+#mycat{
+	margin-right: -16px;
+}
+#bottomlinework{
+	margin-top: 145px;
+	width: 958px;
+
+	border: 0.1px solid rgba(233,233,233,0.1);
+}
+.workdiscription{
+	display: flex;
+	flex-direction: column;
+	color:rgba(120,120,120,1);
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	margin-top: 90px;
+	width: 40%;
+	margin-left: 46px;
+	margin-right: 46px;
+}
+.worklayout{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#workbreak1{
+	margin-top: 50px;
+}
+.workbreak{
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+/*.workbreak hr{
+	border: 0.3px solid rgba(141,141,141,0.4);
+}*/
+.workimage{
+	margin-right: 20px;
+		max-width:100%;
+    height:auto;
+}
+.worktitle{
+	font-size: 29px;
+	margin-bottom: 18px;
+
+}
+.worktitle a:hover{
+	color: black;
+
+}
+.workdis{
+	font-size: 18px;
+}
+#lastpart{
+	margin-bottom: 90px;
+}
+.landstory{
+	width: 350px;
+	margin-left: 70px;
+}
+#landstorydiv{
+	position: relative;
+	top: 210px;
+	color:rgba(120,120,120,1);
+}
+#cwword{
+	width: 90%;
+	margin-left: 80px;
+	margin-top: 8%;
+	font-family: 'Cormorant Garamond', serif;
+color:rgba(120,120,120,1);
+
+}
+#landpagecwparagraph{
+	margin-top: -10px;
+	font-size: 18px;
+}
+#landpagecwtitle{
+	font-size: 30px;
+}
+#landpageresume{
+	position: relative;
+	top: 660px;
+	font-family: 'Cormorant Garamond', serif;
+	width: 70%;
+	left: 400px;
+}
+#lpresume{
+	position: relative;
+	color: white;
+	font-weight: 800;
+	margin-left: 39px;
+	top: 8px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	letter-spacing: 6px;
+	margin: 0 auto;
+}
+#lpresumecontent{
+	position: relative;
+	margin-top: 34px;
+	color:rgba(80,80,80,1);
+	font-size: 39px;
+	right: 183px;
+	margin: 0 auto;
+}
+#thirdbox{
+	position: relative;
+	top: -120px;
+}
+#biofix{
+	padding-left: 5px;
+}
+#homebutton a{
+	color: black;
+}
+#workbutton a{
+	color: black;
+}
+#aboutbutton a{
+	color: black;
+}
+#contactbutton a{
+	color: black;
+}
+.mominlife{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.worklink{
+	text-decoration: none;
+	color: rgba(120,120,120,1);
+}
+#lifeofrpage{
+	text-align: center;
+	margin-top: 30px;
+}
+#lifeofrpage img{
+	margin-top: 35px;
+	max-width:90%;
+    height:auto;
+}
+#maincontentbio{
+	position: relative;
+	top: 107px;
+	right: 16px;
+
+}
+
+#email{
+display: flex;
+flex-direction: column;
+margin-right: 100px;
+}
+#phone{
+	display: flex;
+flex-direction: column;
+margin-left: 100px;
+
+}
+#maincontentcontact{
+	position: relative;
+	top: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+
+}
+#maincontentcontact div{
+
+}
+#bottomlinecontact{
+	margin-top: 500px;
+}
+
+.eandp{
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 60px;
+}
+.numandem{
+	font-family: 'Cormorant Garamond', serif;
+	margin-left: 110px;
+	margin-top: 40px;
+	font-size: 19px;
+}
+
+#workintro{
+	text-align: center;
+	font-size: 20px;
+
+}
+#aboutmedis{
+	font-size: 19px;
+	text-align: center;
+}
+.mominlife img{
+	filter: brightness(100%);
+
+}
+.mominlife img:hover{
+	filter: brightness(40%);
+	transition: all 250ms cubic-bezier(.17,.67,0,0);
+    transition-property: all;
+    transition-duration: 550ms;
+    transition-timing-function: cubic-bezier(0.17, 0.67, 0, 0);
+    transition-delay: initial;
+
+}
+.mominlifecontainer{
+
+}
+.mominlifetext{
+
+
+	left: 60%;
+	opacity: 0;
+	transition: all 250ms cubic-bezier(.17,.67,0,0);
+    transition-property: all;
+    transition-duration: 550ms;
+    transition-timing-function: cubic-bezier(0.17, 0.67, 0, 0);
+    transition-delay: initial;
+}
+.mominlifecontainer:hover .mominlifetext{
+	opacity: 1;
+}
+.mominlifetext div{
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+
+
+}
+#dl1{
+	position: relative;
+	bottom: 240px;
+	left: 9px;
+}
+#dl2{
+		position: relative;
+	bottom: 240px;
+	left: 70px;
+}
+
+#dl3{
+			position: relative;
+	bottom: 240px;
+	left: 110px;
+}
+
+#dl4{
+			position: relative;
+	bottom: 240px;
+	left: 35px;
+	
+}
+#dl5{
+			position: relative;
+	bottom: 240px;
+	left: 100px;
+	
+}
+#dl6{
+			position: relative;
+	bottom: 240px;
+	left: 160px;
+	
+}
+#lp1{
+	position: relative;
+	bottom: 240px;
+	left: 60px;
+}
+#lp2{
+		position: relative;
+	bottom: 240px;
+	left: 50px;
+}
+
+#lp3{
+			position: relative;
+	bottom: 240px;
+	left: 90px;
+}
+
+#lp4{
+			position: relative;
+	bottom: 240px;
+	left: 100px;
+	
+}
+#lp5{
+			position: relative;
+	bottom: 240px;
+	left: 110px;
+	
+}
+#lp6{
+			position: relative;
+	bottom: 240px;
+	left: 85px;
+	
+}
+#maincontentmominlife{
+	position: relative;
+	top: 100px;
+	overflow-x: hidden;
+}
+#landphotottt{
+	text-align: center;
+	font-size: 20px;
+
+}
+#menuicon div{
+    width: 28px;
+    height: 4px;
+    background-color: rgba(141,141,141,1);
+    margin: 4px 0;
+}
+#menuicon{
+	position: relative;
+	top: 13px;
+	right: 49px;
+}
+#indexmain{
+	position: relative;
+	top: 160px;
+	overflow-x: hidden;
+
+}
+#indexmain img{
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+	#click3{
+		position: relative;
+		left: -110px;
+	}
+	#intro{
+		margin-left: 250px;
+	}
+	#catcontent > p.discription{
+		margin-left: 107px;
+		margin-bottom: -20px;
+	}
+	#bikecontent{
+		margin-left: 20px;
+	}
+	#catcontent > p.biosubtitle{
+		position: relative;
+		left: 20px;
+	}
+	#lpresume{
+			position: relative;
+		left: -78px;
+
+
+	}
+	#lpresumecontent{
+		position: relative;
+		right: 280px;
+		width: 100%;
+		text-align: center;
+		top: 19px;
+	}
+	#secondline{
+		display: none;
+	}
+	#hello{
+		position: relative;
+		top: -19px;
+		width: 100%;
+		left: 100px;
+	}
+	#upperface{
+		margin-top: 20px;
+	}
+	#contact{
+		position: relative;
+		left: 270px;
+	}
+	#graybox{
+		margin-left: 290px;
+	}
+	#building{
+		margin-left: 19px;
+	}
+	#farm{
+		left: -160px;
+	}
+	#bottomline{
+		position: relative;
+		right: 70px;
+	}
+	#cat{
+		width: 100%;
+		margin-left: 120px;
+		flex-wrap: wrap;
+	}
+	#power{
+		width: 100%;
+		margin-left: 120px;
+		flex-wrap: wrap-reverse;
+
+	}
+	#cycling{
+		width: 100%;
+		margin-left: 120px;
+		flex-wrap: wrap;
+	}
+	#bike{
+
+	}
+	.bioline{
+		display: none;
+	}
+	#bikecontent > p.biosubtitle{
+		margin-left: 210px;
+		margin-top: -170px;
+	}
+	#bikecontent > p.discription{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	#powercontent > p.biosubtitle{
+		margin-left: 100px;
+		margin-top: -160px;
+	}
+	#powercontent > p.discription{
+		text-align: center;
+		margin-left: -45px;
+	}
+	#powerme{
+		margin-left: 40px;
+	}
+	#catcontent > p.biosubtitle{
+		margin-left: 190px;
+		margin-top: -120px;
+	}
+	#catcontent > p.discription{
+		text-align: center;
+		margin-bottom: 27px;
+		margin-top: -10px;
+	}
+	#mycat{
+		margin-left: 30px;
+	}
+	#bottomlinebio > hr{
+		margin-left: -70px;
+	}
+	.worklayout{
+		width: 100%;
+		margin-left: 170px;
+	}
+
+	.worktitle{
+		margin-top: -60px;
+	}
+	.workdis{
+		margin-bottom: 30px;
+	}
+	.mominlife{
+		margin-left: 160px;
+	}
+	#intro{
+		margin-bottom: -60px;
+	}
+	.workdiscription{
+		margin-left: 70px;
+	}
+	#biotitle{
+		width: 390px;
+		margin-left: -50px;
+	}
+	#maincontentmominlife > div:nth-child(4) > div:nth-child(2) > img{
+		margin-bottom: 76px;
+	}
+	#mylogo{
+		position: relative;
+		right: 30px;
+		left: 106px;
+	}
+}
+
+@media only screen and (max-width: 414px){
+   body > div{
+   	 width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+   }
+   .rescontent{
+   	width: 80%;
+   }
+   
+	#mylogo{
+		margin-left: -90px;
+	}
+	#lastpart{
+		margin-right: 30px;
+	}
+	#topnav{
+		display: flex;
+		flex-direction: column;
+
+	}
+	#topnav li{
+		margin-left: 153px;
+		margin-top: 10px;
+
+	}
+	#topnav li a{
+		font-size: 20px;
+	}
+	#hello{
+		margin-left: -26px;
+	}
+	#graybox{
+		margin-left: -40px;
+	}
+
+	#farm{
+		display: none;
+	}
+	#cwword{
+		margin-left: 19px;
+	}
+		#click3{
+		position: relative;
+		left: -275px;
+	}
+	#lpresume{
+		position: relative;
+		left: -239px;
+
+
+	}
+	#lpresumecontent{
+		position: relative;
+		right: 280px;
+		width: 100%;
+		text-align: center;
+		top: 19px;
+	}
+	#lpresumecontent{
+		margin-left: -36px;
+	}
+		#cat{
+		width: 100%;
+		margin-left: 120px;
+
+	}
+	#cat img{
+	max-width:100%;
+    height:auto;
+    margin-left: -102px;
+	}
+	#power{
+		width: 100%;
+		margin-left: 120px;
+
+	}
+	#biotitle{
+		margin-left: -110px;
+	}
+	#aboutmedis{
+		width: 400px;
+		margin-left: -116px;
+	}
+	#bikecontent > p.biosubtitle{
+		margin-top: -120px;
+		position: relative;
+		left: -23px;
+	}
+
+	#power img
+	{
+			max-width:100%;
+    height:auto;
+    margin-left: -102px;
+
+	}
+	#cycling{
+		width: 100%;
+		margin-left: 120px;
+	}
+	#cycling{
+			max-width:100%;
+    height:auto;
+    margin-left: -102px;
+	}
+	#bikecontent > p.biosubtitle{
+		margin-left: 280px;
+	}
+	#intro{
+		margin-right: 110px;
+	}
+	#bikecontent > p.discription{
+		margin-left: 110px;
+		width: 100%;
+	}
+	#powercontent > p.biosubtitle{
+		margin-left: -85px;
+	}
+	#powercontent > p.discription{
+		margin-left: -155px;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	#catcontent > p.biosubtitle{
+		margin-left: 1px;
+	}
+	#catcontent > p.discription{
+		margin-left: -57px;
+		width: 100%;
+	}
+		.worklayout{
+		width: 100%;
+		margin-left: 4px;
+	}
+	.workdiscription{
+		margin-left: 120px;
+	}
+	#intro{
+		margin-left: 138px;
+	}
+	.mominlife{
+		margin-left: -50px;
+	}
+	.mominlife{
+	max-width:100%;
+    height:auto;
+	}
+	#dl4 > div{
+		margin-left: 30px;
+	}
+	#dl1 > div{
+		font-size: 17px;
+		margin-left: 49px;
+	}
+	#email{
+		margin-left: 30px;
+	}
+	#email > p.numandem{
+		margin-top: 7px;
+		margin-bottom: 40px;
+	}
+	#phone > p.numandem{
+		margin-top: 7px;
+	}
+	#smallscreen{
+	display: block;
+}
+#contact > p > a{
+	display: none;
+}
+#bike{
+	margin-left: 118px;
+}
+}
+
+@media only screen and (max-width: 376px){
+		#mylogo{
+		margin-left: -99px;
+	}
+	#topnav{
+		display: flex;
+		flex-direction: column;
+	}
+	#topnav li{
+		margin-left: 140px;
+		margin-top: 15px;
+	}
+	#hello{
+		margin-left: -45px;
+	}
+	#graybox{
+		margin-left: -50px;
+	}
+	#farm{
+		display: none;
+	}
+	#cwword{
+		margin-left: 7px;
+	}
+	#click2{
+		margin-left: 88px;
+	}
+		#click3{
+		position: relative;
+		left: -275px;
+	}
+	#lpresume{
+		position: relative;
+		left: -259px;
+
+
+	}
+	#lpresumecontent{
+		position: relative;
+		right: 300px;
+		width: 100%;
+		text-align: center;
+		top: 19px;
+	}
+	#lpresumecontent{
+		margin-left: -36px;
+	}
+	#click3{
+		margin-left: -20px;
+	}
+		#cat{
+		width: 100%;
+		margin-left: 120px;
+
+	}
+	#aboutmedis{
+		width: 350px;
+		margin-left: -105px;
+
+	}
+	#biotitle{
+		margin-left: -125px;
+	}
+	#cat img{
+	max-width:100%;
+    height:auto;
+    margin-left: -102px;
+	}
+	#power{
+		width: 100%;
+		margin-left: 120px;
+
+	}
+	#power img
+	{
+			max-width:100%;
+    height:auto;
+    margin-left: -102px;
+
+	}
+	#cycling{
+		width: 100%;
+		margin-left: 120px;
+					max-width:100%;
+    height:auto;
+    margin-left: -102px;
+	}
+
+	#bikecontent > p.biosubtitle{
+		margin-left: 260px;
+	}
+	#intro{
+		margin-right: 110px;
+	}
+	#bikecontent > p.discription{
+		margin-left: 102px;
+	}
+	#powercontent > p.biosubtitle{
+		margin-left: -85px;
+	}
+	#powercontent > p.discription{
+		margin-left: -145px;
+		margin-bottom: 20px;
+	}
+	#catcontent > p.biosubtitle{
+		margin-left: -20px;
+	}
+	#catcontent > p.discription{
+		margin-left: -67px;
+	}
+		.worklayout{
+		width: 100%;
+		margin-left: 4px;
+	}
+	.workdiscription{
+		margin-left: 120px;
+	}
+	#intro{
+		margin-left: 125px;
+	}
+	#workintro{
+		width: 360px;
+		margin-left: -117px;
+	}
+	.mominlife{
+		margin-left: -50px;
+	}
+	.workdis{
+		width: 360px;
+		margin-left: -120px;
+	}
+	.worktitle{
+		width: 360px;
+		margin-left: -115px;
+	}
+	.mominlife{
+	max-width:100%;
+    height:auto;
+	}
+	#dl4 > div{
+		margin-left: 30px;
+	}
+	#dl1 > div{
+		font-size: 17px;
+		margin-left: 49px;
+	}
+	#email{
+		margin-left: 30px;
+	}
+	#email > p.numandem{
+		margin-top: 7px;
+		margin-bottom: 40px;
+	}
+	#phone > p.numandem{
+		margin-top: 7px;
+	}
+	#smallscreen{
+	display: block;
+}
+#contact > p > a{
+	display: none;
+}
+
+}
+
+@media only screen and (max-width: 321px){
+		#mylogo{
+		margin-left: -145px;
+	}
+	#topnav{
+		display: flex;
+		flex-direction: column;
+	}
+	#topnav li{
+		margin-left: 130px;
+		margin-top: 10px;
+	}
+	#hello{
+		margin-left: -74px;
+	}
+	#graybox{
+		margin-left: -54px;
+	}
+	.landstory{
+		width: 60%;
+	}
+	#farm{
+		display: none;
+	}
+	#cwword{
+		margin-left: 25px;
+		width: 60%;
+	}
+	#click2{
+		margin-left: 38px;
+	}
+		#click3{
+		position: relative;
+		left: -275px;
+	}
+	#lpresume{
+		position: relative;
+		left: -289px;
+
+
+	}
+	#lpresumecontent{
+		position: relative;
+		right: 320px;
+		width: 100%;
+		text-align: center;
+		top: 19px;
+	}
+	#lpresumecontent{
+		margin-left: -36px;
+	}
+	#click3{
+		margin-left: -49px;
+	}
+		#cat{
+		width: 100%;
+		margin-left: 120px;
+
+	}
+	#cat img{
+	max-width:100%;
+    height:auto;
+    margin-left: -102px;
+	}
+	#power{
+		width: 100%;
+		margin-left: 120px;
+
+	}
+	#power img
+	{
+			max-width:100%;
+    height:auto;
+    margin-left: -102px;
+
+	}
+	#cycling{
+		width: 100%;
+		margin-left: 120px;
+	}
+	#cycling{
+			max-width:100%;
+    height:auto;
+    margin-left: -102px;
+	}
+	#bikecontent > p.biosubtitle{
+		margin-left: 280px;
+	}
+	#intro{
+		margin-right: 110px;
+	}
+	#bikecontent > p.discription{
+		margin-left: 180px;
+	}
+	#powercontent > p.biosubtitle{
+		margin-left: -85px;
+	}
+	#powercontent > p.discription{
+		margin-left: -110px;
+		margin-bottom: 20px;
+	}
+	#catcontent > p.biosubtitle{
+		margin-left: 20px;
+	}
+	#catcontent > p.discription{
+		margin-left: -67px;
+	}
+		.worklayout{
+		width: 100%;
+		margin-left: 4px;
+	}
+	.workdiscription{
+		margin-left: 120px;
+	}
+	#intro{
+		margin-left: 138px;
+	}
+	.mominlife{
+		margin-left: -50px;
+	}
+	.mominlife{
+	max-width:100%;
+    height:auto;
+	}
+	#dl4 > div{
+		margin-left: 30px;
+	}
+	#dl1 > div{
+		font-size: 17px;
+		margin-left: 49px;
+	}
+	#email{
+		margin-left: 30px;
+	}
+	#email > p.numandem{
+		margin-top: 7px;
+		margin-bottom: 40px;
+	}
+	#phone > p.numandem{
+		margin-top: 7px;
+	}
+	#smallscreen{
+	display: block;
+}
+#contact > p > a{
+	display: none;
+}
+#maincontentbio{
+
+}
+
+}
+
+

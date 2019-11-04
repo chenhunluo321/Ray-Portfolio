@@ -1,0 +1,341 @@
+
+/*Font for header*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+/*h2 font*/
+@import url('https://fonts.googleapis.com/css?family=Katibeh');
+/*font for link*/
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+/*paragraph font*/
+@import url('https://fonts.googleapis.com/css?family=Karla');
+/*CSS RESET*/
+*,
+ *:before,
+ *:after {
+margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+} 
+a:link{
+	font-family: 'Boogaloo', cursive;
+	font-size: 20px;
+	color: rgba(161,132,220,1);
+	transition: all 250ms cubic-bezier(.17,.67,0,0);
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.17, 0.67, 0, 0);
+    transition-delay: initial;
+}
+a:visited{
+	color: black;
+}
+
+a:hover{
+	background-color: black;
+}
+
+a:active{
+
+}
+
+body{
+	background-image: url("Image/background.jpg");
+	font-family: 'Karla', sans-serif;
+}
+
+.page-wrapper{
+	padding-top: 7%;
+	margin: 0 auto;
+	max-width:960px; 
+	background-color: rgba(255,255,255,0.7);
+}
+
+
+header h1{
+	font-size: 80px;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	color: rgba(86,164,78,1);
+}
+header h2{
+	position: relative;
+	top: 50px;
+	margin-left: 45%;
+	width: 40%;
+	padding-bottom: 5%;
+	font-family: 'Katibeh', cursive;
+	font-size: 70px;
+	padding-left: 6%;
+
+	color: rgba(83,84,84,1);
+}
+.intro{
+	margin-top: -17%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 6%;
+	margin-left: 6%;
+	padding: 2%;
+}
+.summary{
+	width: 30%;
+	background-color: rgba(215,255,20,0.8);
+	padding:10px;
+}
+#zen-intro > div:nth-child(2){
+	opacity: 0.7;
+	margin-left:-90px;
+
+}
+.preamble{
+	margin-top: -18%;
+	width: 40%;
+	align-self: flex-end;
+	background-color: rgba(114,177,40,0.8);
+	padding: 10px;
+}
+
+.mainsupporting{
+	margin-right: 6%;
+	margin-left: 6%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#zen-supporting > div:nth-child(1){
+	align-self: flex-end;
+	margin-top: 6%;
+}
+.explanation{
+	background-color: rgba(192,193,195,0.7);
+	padding:10px;
+	width: 40%;
+	margin-top: -44%;
+}
+#zen-supporting > div:nth-child(3) > img{
+	margin-top: 15%;
+	margin-left: -2%;
+}
+.participation{
+	background-color: rgba(161,227,54,0.7);
+	width: 50%;
+	align-self: flex-end;
+	padding: 10px;
+	margin-top: -40%;
+}
+#zen-supporting > div:nth-child(5) > img{
+	margin-top: 6%;
+	margin-left: 50%;
+}
+.benefits{
+	background-color: rgba(161,211,155,0.7);
+	width: 40%;
+	padding: 10px;
+	margin-top: -18%;
+}
+.requirements{
+	margin-top: 7%;
+	background-color: rgba(88,172,123,0.6);
+	padding: 10px;
+	width: 85%;
+	align-self: flex-end;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	margin-top: -55%;
+	width: 11%;
+
+}
+footer a{
+	margin: 20px;
+}
+#zen-supporting > footer > a.zen-github:hover{
+	background-color: rgba(22,22,22,0);
+}
+#zen-supporting > footer > a.zen-github{
+	padding-bottom: 140px;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 5%;
+	margin-left: 9%;
+	padding-bottom: 6%;
+	border-style: groove;
+	border-color: orange;
+	border-radius: 12px;
+	width: 80%;
+	padding: 12px;
+}
+.wrapper ul{
+	list-style: none;
+}
+.wrapper h3{
+	font-size: 25px;
+	font-weight: bolder;
+}
+#design-selection > nav > ul > li:nth-child(1) > a.designer-name{
+	display: flex;
+}
+
+@media only screen and (max-width: 772px){
+.page-wrapper{
+}
+header h2{
+	width: 100%;
+	margin-left: 15%;
+	font-size: 45px;
+}
+.summary{
+	width: 100%;
+	background-color: rgba(215,255,20,0.8);
+	padding:10px;
+	margin-top: 22%;
+
+}
+#zen-intro > div:nth-child(2){
+	display: none;
+}
+.preamble{
+	margin-top: 7%;
+	width: 100%;
+	align-self: flex-end;
+	background-color: rgba(114,177,40,0.8);
+	padding: 10px;
+}
+
+.mainsupporting{
+	margin-right: 6%;
+	margin-left: 6%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#zen-supporting > div:nth-child(1){
+	align-self: flex-start;
+	margin-top: 6%;
+	margin-left: 16%;
+}
+.explanation{
+	background-color: rgba(192,193,195,0.7);
+	padding:10px;
+	width: 100%;
+	margin-top: 1%;
+}
+#zen-supporting > div:nth-child(3) > img{
+	margin-top: 6%;
+	margin-left: 16%;
+}
+.participation{
+	background-color: rgba(161,227,54,0.7);
+	width: 100%;
+	align-self: flex-start;
+	padding: 10px;
+	margin-top: 6%;
+}
+#zen-supporting > div:nth-child(5) > img{
+	margin-top: -2%;
+	margin-left: 18%;
+}
+.benefits{
+	background-color: rgba(161,211,155,0.7);
+	width: 100%;
+	padding: 10px;
+	margin-top: -5%;
+}
+.requirements{
+	margin-top: 7%;
+	background-color: rgba(88,172,123,0.6);
+	padding: 10px;
+	width: 100%;
+	align-self: flex-start;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	margin-left: 41%;
+	margin-top: 1%;
+	justify-content: space-around;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 5%;
+	margin-left: 1%;
+	padding-bottom: 6%;
+	border-style: groove;
+	border-color: orange;
+	border-radius: 12px;
+	width: 97%;
+
+}
+}
+
+@media only screen and (min-width: 916px){
+	.wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 5%;
+	margin-left: 9%;
+	margin-top: 6%;
+	padding-bottom: 6%;
+	border-style: groove;
+	border-color: orange;
+	border-radius: 12px;
+	width: 80%;
+}
+
+}
+@media only screen and (max-width: 520px){
+
+header h2{
+	margin-left: 4%;
+}
+#zen-supporting > div:nth-child(1) > img{
+	margin-left: -15%;
+}
+#zen-supporting > div:nth-child(3) > img{
+	margin-left: -2%;
+}
+#zen-supporting > div:nth-child(5) > img{
+	margin-left: 0%;
+}
+.wrapper{
+	flex-direction: column;
+}
+.wrapper div{
+	margin-top: 4%;
+}
+
+}
+@media only screen and (max-width: 376px){
+	header h1{
+		font-size: 60px;
+	}
+	header h2{
+		margin-bottom: 2%;
+	}
+	#zen-supporting > div:nth-child(1) > img{
+	display: none;
+}
+#zen-supporting > div:nth-child(3) > img{
+	display: none;
+}
+#zen-supporting > div:nth-child(5) > img{
+	display: none;
+}
+#zen-benefits{
+	margin-top: 8%;
+}
+footer{
+	margin-left: 45%;
+}
+}
+

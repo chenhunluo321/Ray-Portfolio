@@ -1,0 +1,50 @@
+/*Font*/
+/*This is my header font*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+/*This is my body font*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+/*This is the font for link*/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body{
+	background-color: rgba(255,97,70,10);/*This is a ... color*/
+}
+
+.container{
+	max-width: 960px;/*shrink it*/
+	margin: auto 0;/*align everything to the window*/
+	text-align: center;
+}
+
+h1{
+	font-family: 'Josefin Slab', serif;
+	color: rgba
+}
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+
+p{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+	color: rgba(154,191,255,5); /*Blue color*/
+	text-decoration: none; /*take off the line*/
+	border: 2px dotted; /*Create a border*/
+	border-color: #FFECB4;/*Change the color of the border*/
+}
+
+a:link{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-transform: lowercase;
+}
+a:hover{
+	color: rgba(89,255,53,3);/*Green*/
+	background-color: rgba(168,90,255,3);/*Purple*/
+}
+a:active{
+	font-size: 30px;
+}

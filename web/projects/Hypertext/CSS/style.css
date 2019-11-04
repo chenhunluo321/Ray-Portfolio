@@ -1,0 +1,126 @@
+/*Font*/
+/*This is my header font*/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/*This is my body font*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+/*This is the font for link*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/*Home page title*/
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+/*Home page Read button*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+body{
+	background-color: #E7C36F;/*This is a light orange color*/
+}
+
+.container{
+	max-width: 960px;/*shrink it*/
+	margin: 0 auto;/*align everything to the window*/
+	text-align: center;/*Make text in the middle of the browser*/
+
+
+}
+.homepage{
+	/*Home page background*/
+    background-image: url("../image/bouldernight.jpg");
+    text-align:center ;
+
+
+}
+.navbox{
+	border: orange solid;
+	/*light blue color*/
+	background-color: #9AE3D9;
+	margin-left: 2px;
+	padding-left: 7px;
+	margin-top: 10px;
+	padding-right: 8px;
+	border-radius: 12px;
+	float: left;
+	position: fixed;
+}
+
+
+h1,h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	line-height:60px;
+}
+h2{
+	font-size: 40px;
+}
+
+.container p{
+	font-family: 'Merriweather', serif;
+	/*orange color*/
+	background-color: #E35B20;
+	/*dark blue*/
+	border: 2px solid #000033;
+    border-radius: 12px;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 25px;
+    line-height: 35px;
+    position: relative;
+    top: 115px;
+    left: 80px;
+    margin: 0 auto;
+
+}
+.container p:first-letter{
+	font-size: 50px;
+	font-style: italic;
+}
+
+a{
+	text-decoration: none; /*take off the line*/
+	border: 2px dotted; /*Create a border*/
+	border-color: #C560CC;/*Change the color of the border*/
+	border-radius: 6px;
+}
+
+a:link{
+	color: red; /*Blue color*/
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	text-transform: lowercase;
+}
+a:visited{
+	color:grey;
+}
+a:hover{
+	color: rgba(106,170,255,1);/*Green*/
+	background-color: white;
+}
+a:active{
+	font-size: 30px;
+}
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+footer{
+	margin-top: 170px;
+}
+#quote_image{
+	position: relative;
+	left: -10px;
+	top: -20px;
+
+}
+#home_title{
+			font-family: 'Bree Serif', serif;
+			font-size:90px;
+			padding-top: 70px; 
+
+
+}
+#button{
+			font-size: 50px;
+			background-color: pink;
+			font-family: 'Open Sans', sans-serif;
+			text-decoration: none;
+}

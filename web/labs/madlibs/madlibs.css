@@ -1,0 +1,110 @@
+/*Font for content */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+/*input*/
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Pacifico');
+*,
+ *:before,
+ *:after {
+margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+} 
+.hide{
+	display: none;
+}
+body{
+	background-color: rgba(104,186,169,0.7);
+	margin: 0 auto;
+}
+#title{
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 5px;
+	font-size: 30px;
+	width: 20%;
+	margin-top: 10%;
+}
+.container{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+#list{
+	/*text-align: left;*/
+/*	width: 30%;
+	text-align: left;
+	margin: 0 auto;*/
+
+}
+#list li{
+	list-style: none;
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+}
+#generate{	
+	height: 10%;
+	font-size: 30px;
+	margin-top: 10%;
+
+}
+
+input[type=text]{
+	background-color: yellow;
+	margin: 5px;
+	padding: 15px;
+	padding-left: 80px;
+	border:2px solid rgba(79,92,176,1);
+	border-radius: 10px;
+	cursor: progress;
+	transition: all 500ms;
+	font-size: 15px;
+	font-family: 'Pacifico', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+}
+input[type=text]:focus{
+	background-color: rgba(64,95,176,1);
+	color: yellow;
+	box-shadow: 2px 2px 5px 1px rgba(64,95,176,1);
+
+}
+input[type=button]{
+	background-color: transparent;
+	border-style: inset;
+	border-width: 7px;
+}
+#finalstory{
+	font-size: 30px;
+	margin-top: 10%;
+	width: 70%;
+		font-family: 'Pacifico', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+
+
+}
+#last{
+	width: 40%;
+	display: inline-block;
+}
+
+@media only screen and (max-width: 927px){
+	.container{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#title{
+	width: 80%;
+}
+#last{
+	width: 100%;
+	margin-left: 40%;
+}
+
+	}
+

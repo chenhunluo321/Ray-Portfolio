@@ -1,0 +1,76 @@
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.page-wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.sidebar {
+    float: left;
+    width: 250px;
+    position: fixed;
+    min-height: 100%;
+    padding-left: 20px;
+    padding-top: 150px;
+ }
+ #zen-supporting{
+ 	float: right;
+ 	text-align: left;
+ 	width: 70%
+ }
+ .intro{
+ 	float: right;
+ 	text-align: left;
+ 	width: 70%;
+ }
+ #zen-explanation{
+ 	width: 49%;
+ 	float: left;
+ }
+ #zen-participation{
+ 	width: 49%;
+ 	float: left;
+ }
+ #zen-benefits{
+ 	width: 49%;
+ 	float: left;
+ }
+
+ #zen-requirements > p:nth-child(3) {
+    padding-top: 31px;
+ }
+
+/*anything below 798px*/
+/*if min width 798 is everything above 798*/
+ @media only screen and (max-width: 798px){
+ 	.sidebar{
+ 		width: 100%;
+ 		position: static;
+ 		top: 0;
+ 		display: flex;
+ 		justify-content: center;
+ 		padding-top: 40px;
+ 		margin:0 auto;
+ 	}
+ 	 #zen-explanation{
+ 	width: 100%;
+ 	float: none;
+ }
+ #zen-participation{
+ 	width: 100%;
+ 	float: none;
+ }
+ #zen-benefits{
+ 	width: 100%;
+ 	float: none;
+ }
+.wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+ }
